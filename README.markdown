@@ -1,3 +1,17 @@
+# jamsyoung.com (instantiated octopress remix)
+Quick usage summary:
+
+- Make changes
+- Generate updated source
+- Deploy
+
+    $ rake generate deploy
+
+- To make a new post
+
+        $ rake new_post["title"]
+
+
 ## What is Octopress?
 
 Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
