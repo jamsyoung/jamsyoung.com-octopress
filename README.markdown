@@ -3,11 +3,13 @@ An Octopress Blog
 
 
 ## Quick usage summary:
-- Make changes
-
 - Generate updated source
 
         $ rake generate
+
+- Watch sources for changes and regenerate
+
+		$ rake watch
 
 - Preview changes at [http://localhost:4000][0]
 
@@ -17,9 +19,14 @@ An Octopress Blog
 
         $ rake deploy
 
-- To make a new post
+- Make a new post
 
         $ rake new_post["title"]
+
+- Make a new page
+
+		$ rake new_page["page-name"]
+		$ rake new_page["page-name/customl.html"]
 
 
 
