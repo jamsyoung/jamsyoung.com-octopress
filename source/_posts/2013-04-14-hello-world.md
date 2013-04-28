@@ -1,13 +1,19 @@
 ---
 layout: post
-title: "Hello World (again)"
+title: "Yet Another New Blog"
 date: 2013-04-14 15:32
 comments: true
 categories:
 ---
 
-This used to be a wordpress blog.  Now it is [Octopress][6]. Until I come up
-with the next cool thing to put on this domain, here are my online profiles:
+I have switched blogging software (and hosting) yet again.  This time I have
+moved to [Octopress][6].  I really like it better than all the others I have
+tried in the past.  I didn't bother porting over all my old posts from the last
+WordPress blog that I had.  You can still get to them all at
+[http://jamsyoung.wordpress.com/][7].  I have moved over only the ones that got
+significant traffic.
+
+Here are my other online profiles that I keep up.
 
 - [GitHub][0]
 

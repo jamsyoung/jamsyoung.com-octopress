@@ -9,7 +9,7 @@ An Octopress Blog
 
 - Watch sources for changes and regenerate
 
-		$ rake watch
+        $ rake watch
 
 - Preview changes at [http://localhost:4000][0]
 
@@ -25,8 +25,8 @@ An Octopress Blog
 
 - Make a new page
 
-		$ rake new_page["page-name"]
-		$ rake new_page["page-name/customl.html"]
+        $ rake new_page["page-name"]
+        $ rake new_page["page-name/custom.html"]
 
 
 
