@@ -13,4 +13,6 @@ libraries, but they were a bit more than what I needed and didn’t do exactly
 what I needed. So I threw the following together. It does have specific stuff in
 it that is probably not portable to other projects, but here it is.
 
+<!--more-->
+
 {% gist 5449056 %}

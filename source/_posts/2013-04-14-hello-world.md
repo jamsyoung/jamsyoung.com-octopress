@@ -36,4 +36,5 @@ Here are my other online profiles that I keep up.
 [3]: http://stackoverflow.com/users/908203/james-young
 [4]: http://careers.stackoverflow.com/jamesyoung
 [5]: https://npmjs.org/~jamsyoung
-[6]: http://octopress.org/
+[6]: http://octopress.org
+[7]: http://jamsyoung.wordpress.com

@@ -13,20 +13,20 @@ copy/pasting all the time.
 {% codeblock Various Bash commands lang:bash %}
 $ listysftclog 200709* | grep att/v4 | perl -ne 'if(/(yihupg[^|]*)/){print $1."n";}' | sort -r | uniq -c
 
-$ cat ~/ysftc.log | grep att/v4 | perl -ne 'if(/beacon.choice~([^|]*)/){print $1."n";}' | sed 's/&/&/' | sort | uniq -c | sort -nr
+$ cat somefile.txt | grep att/v4 | perl -ne 'if(/beacon.choice~([^|]*)/){print $1."n";}' | sed 's/&/&/' | sort | uniq -c | sort -nr
 
-$ cat ~/ysftc.log | grep att/v4 | grep choice.php | grep result~200 | wc -l
+$ cat somefile.txt | grep att/v4 | grep choice.php | grep result~200 | wc -l
 
-$ cat ~/ysftc.log | grep att/v4 | grep result~200 | cut -f10 -d| | sort | uniq | wc -l
+$ cat somefile.txt | grep att/v4 | grep result~200 | cut -f10 -d| | sort | uniq | wc -l
 
-$ cat /home/y/logs/ysftc/ysftc.log | grep att/v4 | perl -ne 'if(/choiceua([^|]*)/){print $1."n";}' | sort | uniq -c | sort -nr
+$ cat somefile.txt | grep att/v4 | perl -ne 'if(/choiceua([^|]*)/){print $1."n";}' | sort | uniq -c | sort -nr
 
-$ cat /home/y/logs/ysftc/ysftc.log | grep att/v4 | perl -ne 'if(/choiceua([^|]*)/){print $1."n";}' | grep Windows | wc -l
+$ cat somefile.txt | grep att/v4 | perl -ne 'if(/choiceua([^|]*)/){print $1."n";}' | grep Windows | wc -l
 
-$ cat /home/y/logs/ysftc/ysftc.log | grep att/v4 | perl -ne 'if(/choiceua([^|]*)/){print $1."n";}' | grep Mac | wc -l
+$ cat somefile.txt | grep att/v4 | perl -ne 'if(/choiceua([^|]*)/){print $1."n";}' | grep Mac | wc -l
 
 
-$ cat ~/ysftc.log | grep att/v4 | perl -ne 'if(/beacon.choice~([^|]*)/){print $1."n";}' | sed 's/&/&/' | sort | uniq -c | sort -nr
+$ cat somefile.txt | grep att/v4 | perl -ne 'if(/beacon.choice~([^|]*)/){print $1."n";}' | sed 's/&/&/' | sort | uniq -c | sort -nr
  23 AT&T Yahoo! Online Protection
  13 Parental Controls
  11 AT&T Yahoo! Messenger

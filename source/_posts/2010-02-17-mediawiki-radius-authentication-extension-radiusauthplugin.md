@@ -11,6 +11,8 @@ server.  I couldn’t find one anywhere else, which is surprising. I can’t bel
 I am the first person to want to do this. Anyway, this is just bare bones, but
 it works for an internal MediaWiki setup.
 
+<!--more-->
+
 First, get Pure PHP radius class 1.2.2 from [http://developer.sysco.ch/php][0].
 This does the actual radius authentication.  Put `radius.class.php` in
 `wiki/extensions/` (assuming wiki is your mediawiki install).  There is probably
