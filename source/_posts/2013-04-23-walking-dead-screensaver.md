@@ -17,7 +17,7 @@ Direct Download: [https://github.com/jamsyoung/walking-dead/archive/master.zip][
 
 Here is a screenshot:
 
-{% img http://grab.by/lV6a %}
+{% img http://new.tinygrab.com/d34460e81660632064bded39128c3b12b8ed25c9a4.png %}
 
 
 
