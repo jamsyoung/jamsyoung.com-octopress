@@ -3,7 +3,7 @@ layout: post
 title: "Command Line Reporting"
 date: 2007-04-29 21:49
 comments: true
-categories: shell cli commandline
+categories: shell
 ---
 
 I find myself dealing with lots of log files that need to be parsed on the fly.
