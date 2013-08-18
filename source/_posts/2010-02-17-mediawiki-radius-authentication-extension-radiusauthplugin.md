@@ -3,7 +3,7 @@ layout: post
 title: "MediaWiki Radius Authentication Extension - RadiusAuthPlugin"
 date: 2010-02-17 22:12
 comments: true
-categories: 
+categories: mediawiki radius
 ---
 
 Here is an extension/plugin for MediaWiki to authenticate against a Radius

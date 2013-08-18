@@ -3,7 +3,7 @@ layout: post
 title: "JavaScript DateTime Tools Lib"
 date: 2009-09-09 22:06
 comments: true
-categories: 
+categories: javascript
 ---
 
 So I got the project working on a tv schedule at work. As you can imagine there
