@@ -5,11 +5,17 @@
         <li><a href="https://github.com/jamsyoung">GitHub</a></li>
         <li><a href="https://plus.google.com/118054553426863794132" rel="publisher">Google+</a></li>
         <li><a href="https://npmjs.org/~jamsyoung">npmjs.org</a></li>
+        <li><a href="http://osrc.dfm.io/jamsyoung">OSRC</a></li>
     </ul>
     <ul class="jy-column">
         <li><a href="https://twitter://linkedin.com/in/jamesmyoung">LinkedIn</a></li>
         <li><a href="https://twitter.com/jamsyoung">Twitter</a></li>
         <li><a href="https://facebook.com/jamsyoung">Facebook</a></li>
+        <li>&nbsp;</li>
     </ul>
-    <a href="http://osrc.dfm.io/jamsyoung">Open Source Report Card</a></li>
+    <div style='text-align: center;'>
+        {% if site.stackoverflow_user_name %}
+            <a href="http://stackoverflow.com/users/{{site.stackoverflow_user_id}}/{{site.stackoverflow_user_name}}"><img src="http://stackoverflow.com/users/flair/{{site.stackoverflow_user_id}}.png" alt="profile for {{ site.stackoverflow_user_name }} at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for {{ site.stackoverflow_user_name }} at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
+        {% endif %}
+    </div>
 </section>
