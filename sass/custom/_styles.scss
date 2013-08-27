@@ -2,3 +2,10 @@
 // Add styles here to make changes without digging in too much
 
 .jy-column { float: left; width: 50%; }
+
+body>header {
+    background: url('http://jamsyoung.com/images/walking-dead-issue-092.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
