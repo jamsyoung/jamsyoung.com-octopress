@@ -8,14 +8,12 @@ categories: node
 
 **Part 1**
 
-This is no right way or wrong way to develop a node application.  Well, there 
-probably is a wrong way, depending on who you ask, but if you are a software
-developer, odds are you have chosen this life because you are constantly
-striving for the best, most efficient way to develop.  With that said, if you
-are doing it a wrong way, it is just because you haven't rewritten it again, and 
-again, and again.  That's what we all do, we refactor over and over until we run
-out of time.  So, if you are doing it the wrong way, its just a matter of time
-before you change it.
+There is no right way or wrong way to develop a node application.  Well, there 
+probably is a wrong way, but you won't do it wrong for long.  Being a software
+developer, you have chosen this life because you are constantly striving for the
+best, most efficient way to develop.  If you are doing it a wrong way, it is
+just because you haven't rewritten it again, and again, and again. That's what
+we all do, we refactor over and over until we run out of time.
 
 This is what I am currently doing.  I didn't do this in the past, and I will 
 change it in the future.  This is just where I am at, in my current state of
