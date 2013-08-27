@@ -10,7 +10,7 @@ categories: node
 
 This is no right way or wrong way to develop a node application.  Well, there 
 probably is a wrong way, depending on who you ask, but if you are a software
-developer, odds are you have choosen this life because you are constantly
+developer, odds are you have chosen this life because you are constantly
 striving for the best, most efficient way to develop.  With that said, if you
 are doing it a wrong way, it is just because you haven't rewritten it again, and 
 again, and again.  That's what we all do, we refactor over and over until we run
@@ -33,9 +33,9 @@ Command Line Tools.  This is going to give you all the good command line
 goodness, specifically git, make, gcc, blah, blah, blah.  Its all there, and you
 are going to use it either directly or indirectly at some point.
 
-Next [Sublime Text 2][0] with a small handfull of packages.  Yeah, I will list
-those somewhere down below.  Between vim and subl, you will probalby never edit
-a file with anything else.
+Next [Sublime Text 2][0] with a small handful of packages.  Yeah, I will list
+those sometime later.  Between vim and subl, you will probably never edit a file
+with anything else.  Maybe that is just me though.
 
 
 ## Dotfiles
@@ -46,7 +46,7 @@ dotfiles you will want to add to each project you work on.  This is what I am
 currently putting in my node projects.
 
 - [.editorconfig][2] - This will insure that you have consistent settings for
-  all files.  This is particulary useful for projects that have more than just
+  all files.  This is particularly useful for projects that have more than just
   you working on it.
 
 - [.jshintrc][3] - If its a JavaScript file, use [JSHint][4] on it.  It doesn't
