@@ -3,32 +3,31 @@ layout: post
 title: "How I Develop Node Applications"
 date: 2013-08-26 20:55
 comments: true
-categories: node
+categories: node javascript
 ---
 
 **Part 1**
 
 There is no right way or wrong way to develop a node application.  Well, there 
-probably is a wrong way, but you won't do it wrong for long.  Being a software
+is a wrong way, but you won't do it wrong for long, hopefully.  Being a software
 developer, you have chosen this life because you are constantly striving for the
 best, most efficient way to develop.  If you are doing it a wrong way, it is
 just because you haven't rewritten it again, and again, and again. That's what
 we all do, we refactor over and over until we run out of time.
 
 This is what I am currently doing.  I didn't do this in the past, and I will 
-change it in the future.  This is just where I am at, in my current state of
-being.
+change it in the future.
 
 <!-- more -->
 
 ## The Development Environment
 Mac OS X.  Yes, I use Linux and Windows as well, but when walking into a room 
-with every computer imaginable, in my current state of mind, I am going to 
-grab the newest MBP and get to work.
+with every computer imaginable, I am going to grab the newest MBP and get to
+work.
 
 Ok, I have my MBP, now for all the software.  Install Xcode, just so I can get
-Command Line Tools.  This is going to give you all the good command line
-goodness, specifically git, make, gcc, blah, blah, blah.  Its all there, and you
+Command Line Tools.  This is going to give you all the command line goodness,
+specifically git, make, gcc, blah, blah, blah.  Its all there, and you
 are going to use it either directly or indirectly at some point.
 
 Next [Sublime Text 2][0] with a small handful of packages.  Yeah, I will list
