@@ -1,6 +1,26 @@
 <section>
-    <p style="padding-top: 26px;">System Lead / Architect for Turner Broadcasting System working on <a href="http://cnn.com">CNN.com</a></p>
-    <div style='text-align: center;'>
+    <p style="padding-top: 26px;">System Lead / Architect for Turner Broadcasting System working on <a href="http://cnn.com">CNN.com</a>.  Check out some articles written about the project I am currently working on:</p>
+    <ul>
+        <li>Read on <a href="http://www.fastcodesign.com/1673282/cnns-redesign-will-color-code-news-like-a-mood-ring">Fast Company</a>
+        <li>Read on <a href="http://mashable.com/2013/08/14/cnn-web-redesign/">Mashable</a>
+        <li>Read on <a href="http://www.adweek.com/news/television/cnns-remodeled-digital-platform-looks-really-expensive-151849">Adweek</a>
+    </ul>
+</section>
+
+<section>
+  <h2>Recent Posts</h2>
+  <ul id="recent_posts">
+    {% for post in site.posts limit: site.recent_posts %}
+      <li class="post">
+        <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+    <h2>Social Badges</h2>
+    <div>
         <ul>
 <!-- google+       --><li><div class="g-person" data-width="273" data-href="//plus.google.com/118054553426863794132" data-theme="dark" data-layout="landscape" data-showtagline="false" data-showcoverphoto="false" data-rel="author"></div></li>
 <!-- github        --><li><iframe src="http://ghbtns.com/github-btn.html?user=jamsyoung&type=follow&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="205" height="30"></iframe></li>

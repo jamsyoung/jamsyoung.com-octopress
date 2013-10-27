@@ -4,8 +4,9 @@
 .jy-column { float: left; width: 50%; }
 
 body>header {
-    background: url('http://jamsyoung.com/images/walking-dead-issue-092.jpg');
+    // background: url('http://jamsyoung.com/images/walking-dead-issue-092.jpg');
+    background: url('/images/twd_1_bkgd.jpg');
     background-size:cover;
     background-repeat:no-repeat;
-    background-position: center;
+    background-position: top;
 }

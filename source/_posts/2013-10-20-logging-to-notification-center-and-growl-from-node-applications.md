@@ -3,7 +3,7 @@ layout: post
 title: "Logging to Notification Center and Growl From Node Applications"
 date: 2013-10-20 14:42
 comments: true
-categories: node javascript
+categories: node javascript log-notify
 ---
 
 I wrote a small [NodeJS][node] library that combines the [growl][growl] and
